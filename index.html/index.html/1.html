@@ -1,0 +1,209 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>project1</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css">
+ <style>
+  
+    .container {
+      position: relative;
+        }
+  .bottomleft {
+    position: absolute;
+    bottom: 6px;
+    left: 5px;
+    right: -6px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: crimson;
+    border-radius: 5px;
+    /* overflow: auto; */
+    border: 7px solid crimson;
+    padding: 1px;
+    }
+  .buttom1{
+    color: black;
+    padding: 3px 3px ;
+    text-align: center;
+    font-size: 15px;
+    /* margin-bottom: -2px; */
+    text-shadow: 1px 1px 1px;
+   border-radius: 10px;
+   box-shadow: inset 2px 2px 3px;
+   background-color: blanchedalmond;
+   position: absolute;
+   right: 4px;
+   bottom: -2px;
+   cursor: pointer;
+    }
+  .H1{
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 30px;
+ text-align: start;
+  }
+  .H2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+  }
+  aside {
+width: 20%;
+padding-left: 15px;
+margin-left: 15px;
+margin-top: 15px;
+float: right;
+font-style: italic;
+background-color: lightgray;
+text-align: center;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    box-shadow: inset 2px 2px 3px; 
+    border-radius: 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE ;
+    color: white;
+  }
+  .fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+footer {
+  padding: 5px;
+  margin-top: 80px;
+  border-top: solid black;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+ul {
+    list-style-type: square;
+    padding: 2px;
+    margin: 6px;
+    column-count: 2;
+    color: crimson;
+  
+}
+li{
+  padding-left: 5px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  ul{
+        column-count: 3;
+  }
+  }
+/********** Small devices only **********/
+@media (max-width: 992px) {
+  ul{
+    column-count: 1;
+  }
+ 
+}
+  </style>
+</head>
+
+<body>
+    <p>
+    <img src="img/Screenshot (331).png" alt="logo" style="float: none;width:80px;height:80px;margin: 1px;">
+  </p>
+  <div class="header">
+    <h6 style="float: left;">My cookbook</h6>
+          <div class="haeder-right">
+      <a href="3.html" style="float: right;">CONTACT</a>
+      <a href="2.html"  style="float: right;">RESUME</a>
+      <a href="#blog" style="float: right;">BLOG</a>
+      <a class="active" href="#home" style="float: right ;">HOME </a>
+    </div>
+  </div>
+  <div class="container">
+  <img src="img/potato.jpg" alt="meal photo" style="align-content: center; padding: 5px;float: none; border-radius: 12px; width: 100%; height: 300px;">
+  <div class="bottomleft">New dinner ideas to try...
+ <button class="buttom1">See article </button>  </div>
+  </div>
+  <aside>
+    <p>
+     <h4>About the Author</h4> 
+     <img src="img/mosh.jpg" alt="chef" style="width:90%;height:1-0%px;border-style:solid;">
+       <p>Let me introduce mysefl: my name is Marziyeh. I was born on 17 February 1996. I have decided to write my biography to let my readers know who I really am.</p> 
+       <a href="#" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-twitter"></a>
+       <a href="#" class="fa fa-vimeo"></a>
+       <a href="#" class="fa fa-linkedin"></a>
+      </p>
+  </aside>
+  <section>
+  <p class="H1">
+    <img src="img/chefhat.jpg" alt= "potato" style="float: left;width: 42px;height: 42px;border-radius: 50%;margin-right: 5px;">
+    I'm a great cook
+  </p>
+   <p class="H2">
+    Hello my dear friends;
+    Today I am going to tell you about the stuffed potato!! Sounds yummy snd it is easy to cook. Here are the ingredients for 3persons; 6 large potatoes, 6 tablespoons butter, 6 slices bacon, shredded cheese, 4 mushrooms, one bell pepper and 1/2 teaspoon salt.<br><br>
+    Heat the oven to 375F in the meantime rub the whole potatoes with softened butter. Then, put all potatoes on the oven and bake them for 30 minutes, make sure the potatoes are tender when poking them with a fork. After baking the potatoes, cut them in half and remove inside the potatoes with a teaspoon, leave a tiny shell to hold them tight.<br><br>Chop mushrooms and a pepper after washing them. After that put bacons, mushrooms and peppers in the potatoes and add shredded cheese on the top of that. Now it's ready to go to oven and wait 20 minutes to serve the meal. 
+    <br><br>bon appetit!!
+   </p>
+</section>
+<footer>
+  <div class="row">
+    <div class="column">
+      <p style="font-family:Lucida Console, Courier New, monospace;">
+      My Last Tweet<br><br>1/29/2021</p>
+          </div>
+          <div class="column">
+            <p style="font-family:Lucida Console, Courier New, monospace;">
+            My Pictures<br><br>
+            <img src="img/cake.jpg" alt="Cake" style="float: none;width: 60px;height: 60px;margin: 4px;border: solid;">
+  <img src="img/lazania.jpg" alt="Lazania" style="float: none;width: 60px;height: 60px;margin: 4px;border: solid;">
+  <img src="img/pasta.jpg" alt="Pasta" style="float: none;width: 60px;height: 60px;margin: 4px;border: solid;">
+  </p>
+      </div>
+      <div class="column">
+        <p style="font-family:Lucida Console, Courier New, monospace;">My Friends
+        <br>
+        <ul>
+          <li>Niloofar</li>
+          <li>Maryam </li>
+          <li>Goli</li>
+          <li>Gisoo</li>
+        <li>Fatemeh</li>
+        <li>Sara</li>
+        </ul>
+      </p>
+      </div>
+  </div>  
+</footer>
+
+</body>
+</html>
